@@ -8,9 +8,12 @@ automatically applied to the current branch.
 
 ![Demo of `git receive-mail`](git-receive-mail.gif)
 
+
 **Goals**:
 
-  * Ability to be used on pretty much any OS, so as to support the masses.
+  * Support the masses.
+      * Ability to be used on pretty much any OS.
+      * Permissively license (MIT).
   * No dependencies on specific email workflows.
   * Simple to use in most cases, possible to use in all cases.
 
