@@ -1,0 +1,15 @@
+#!/bin/sh
+
+email_ids=$(himalaya "${@}" | \
+    tail -n +2 | \
+    fzf --ansi \
+        --nth 3..5 \
+        --preview="himalaya message read -p ${@} {1}" \
+        --header-lines=1 \
+        --multi | \
+        awk -F' *| *' '/|/{print $1}')
+
+(for email_id in $email_ids; do
+        printf '\nFrom nobody Mon Sep 17 00:00:00 2001\n'
+        himalaya --output plain message read -p --raw "${@}" $email_id
+done) | git am -
