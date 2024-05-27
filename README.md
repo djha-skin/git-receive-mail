@@ -8,33 +8,32 @@ automatically applied to the current branch.
 
 ![Demo of `git receive-mail`](git-receive-mail.gif)
 
-Goals:
+**Goals**:
 
   * Ability to be used on pretty much any OS, so as to support the masses.
   * No dependencies on specific email workflows.
   * Simple to use in most cases, possible to use in all cases.
 
-Non-Goals:
+**Non-Goals**:
 
-  * Make it really fast for maintainers of popular projects to consume vast
+  * The ability for maintainers of popular projects to consume vast
     numbers of patches. Other projects exist for that, such as [aerc](https://aerc-mail.org/)
-    and [b4](https://github.com/mricon/b4) exist for that. This project is not
-    for the Benevolent Dictators, but for The People.
-  * Make it easy for patch submitters to participate on a mailing list. That is,
+    and [b4](https://github.com/mricon/b4) exist for that.
+  * The ability for patch submitters to participate on a mailing list. That is,
     this tool does not make it easy to reply to plain-text emails with plain
-    text, something many email providers don't provide. However, there is hope!
-    Users can use
+    text, something [many email providers don't
+    provide](https://www.kernel.org/doc/html/v4.10/process/email-clients.html).
+    However, there is hope! Users can use
     [`himalaya`](https://pimalaya.org/himalaya/cli/latest/usage/basic/message/send.html#reply-to-a-message-interactively)
     as a for-purpose tool to send plain text emails. This allows the users to
-    use whatever they normally use to check email for everything else. Again,
-    this is a tool for The People.
+    use whatever they normally use to check email for everything else.
 
 ## Supported OS's
 
 * Windows (via Git Bash)
 * Mac
 * Linux
-* All other platforms that support golang, rust, and POSIX shell (since the
+* All other platforms that support Golang, Rust, and POSIX shell (since the
   project depends on `himalaya` and `fzf`, and this version is written in POSIX
   shell).
 
@@ -64,4 +63,8 @@ that user will enable the user to construct more advanced workflows, grab
 patches from folders other than their INBOX, etc. For example, `git receive-mail
 -a <account>` lets the user grab the email from a specific email account.
 
+## Contributions
 
+Contributions welcome. I don't expect this to remain a POSIX script; I'm open to
+PRs or patches that rewrites this simple script. Future directions might include
+getting rid of dependencies or rewriting entirely in golang or Python.
