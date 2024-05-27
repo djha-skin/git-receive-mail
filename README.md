@@ -55,9 +55,13 @@ automatically applied to the current branch.
 
 1. Check out the branch to which you wish to apply email patches sent via [`git
 send-mail`](https://git-send-email.io).
+2. Navigate to your git repository and branch in the terminal.
 2. Run `git receive-mail`.
 3. Use the arrow keys to move around and the tab key to select/deselect patches.
 4. Hit Enter.
+
+The patches in the emails will be applied to the currently checked out git
+branch.
 
 ## Advanced Usage
 
