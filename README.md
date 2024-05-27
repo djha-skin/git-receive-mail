@@ -44,11 +44,12 @@ automatically applied to the current branch.
 
 1. Install [himalaya](https://github.com/soywod/himalaya.git). If you have Rust
    on your machine, this is just `cargo install himalaya`.
-2. Set up `himalaya` with your IMAP credentials by running `himalaya`. You will
-   be walked through it via a wizard.
+2. Set up `himalaya` with your IMAP credentials by running `himalaya`. A wizard
+   will walk the user through setting this up.
 2. Install [fzf](https://github.com/junegunn/fzf). This can typically be done
    with homebrew/scoop/your OS package manager.
-4. Place the `git-receive-mail` included herein on your PATH.
+4. Download the `git-receive-mail` script included herein and put it on on the
+   PATH.
 
 ## Usage
 
