@@ -12,7 +12,7 @@ Feature requests and bug reports are welcome at this project's [issue
 tracker](https://todo.sr.ht/~skin/git-receive-mail).
 
 Patches may be sent and discussed at the project's [mailing
-list](https://sr.ht/~skin/git-receive-mail/).
+list](https://lists.sr.ht/~skin/git-receive-mail-devel).
 
 **Goals**:
 
