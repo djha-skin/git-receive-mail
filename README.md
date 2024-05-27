@@ -21,7 +21,7 @@ automatically applied to the current branch.
 
   * The ability for maintainers of popular projects to consume vast
     numbers of patches. Other projects exist for that, such as [aerc](https://aerc-mail.org/)
-    and [b4](https://github.com/mricon/b4) exist for that.
+    and [b4](https://github.com/mricon/b4).
   * The ability for patch submitters to participate on a mailing list. That is,
     this tool does not make it easy to reply to plain-text emails with plain
     text, something [many email providers don't
