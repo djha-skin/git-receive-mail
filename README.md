@@ -59,7 +59,7 @@ send-mail`](https://git-send-email.io).
 
 The script passes whatever arguments sent to it into Himalaya, so reading the
 [documentation](https://pimalaya.org/himalaya/cli/latest/configuration/) for
-that user will enable the user to construct more advanced workflows, grab
+that tool will enable the user to construct more advanced workflows, grab
 patches from folders other than their INBOX, etc. For example, `git receive-mail
 -a <account>` lets the user grab the email from a specific email account.
 
