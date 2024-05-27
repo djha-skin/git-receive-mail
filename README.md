@@ -12,8 +12,8 @@ automatically applied to the current branch.
 **Goals**:
 
   * Support the masses.
-      * Ability to be used on pretty much any OS.
-      * Permissively license (MIT).
+      * Usable on pretty much any OS.
+      * Permissively licensed (MIT).
   * No dependencies on specific email workflows.
   * Simple to use in most cases, possible to use in all cases.
 
