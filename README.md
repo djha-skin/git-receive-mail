@@ -14,6 +14,20 @@ tracker](https://todo.sr.ht/~skin/git-receive-mail).
 Patches may be sent and discussed at the project's [mailing
 list](https://lists.sr.ht/~skin/git-receive-mail-devel).
 
+## Usage
+
+1. Check out the branch to which you wish to apply email patches sent via [`git
+send-mail`](https://git-send-email.io).
+2. Navigate to your git repository and branch in the terminal.
+2. Run `git receive-mail`.
+3. Use the arrow keys to move around and the tab key to select/deselect patches.
+4. Hit Enter.
+
+The patches in the emails will be applied to the currently checked out git
+branch.
+
+# Goals and Non-Goals
+
 **Goals**:
 
   * Support the masses.
@@ -47,26 +61,13 @@ list](https://lists.sr.ht/~skin/git-receive-mail-devel).
 
 ## Set-Up
 
-1. Install [himalaya](https://github.com/soywod/himalaya.git). If you have Rust
-   on your machine, this is just `cargo install himalaya`.
+1. Download [himalaya](https://github.com/soywod/himalaya.git) from its releases
+   page.
 2. Set up `himalaya` with your IMAP credentials by running `himalaya`. A wizard
    will walk the user through setting this up.
-2. Install [fzf](https://github.com/junegunn/fzf). This can typically be done
-   with homebrew/scoop/your OS package manager.
+2. Download [fzf](https://github.com/junegunn/fzf) from its releases page.
 4. Download the `git-receive-mail` script included herein and put it on on the
    PATH.
-
-## Usage
-
-1. Check out the branch to which you wish to apply email patches sent via [`git
-send-mail`](https://git-send-email.io).
-2. Navigate to your git repository and branch in the terminal.
-2. Run `git receive-mail`.
-3. Use the arrow keys to move around and the tab key to select/deselect patches.
-4. Hit Enter.
-
-The patches in the emails will be applied to the currently checked out git
-branch.
 
 ## Advanced Usage
 
