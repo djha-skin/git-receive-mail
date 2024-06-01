@@ -61,11 +61,15 @@ branch.
 
 ## Set-Up
 
-1. Download [himalaya](https://github.com/soywod/himalaya.git) from its releases
-   page.
+1. Install [himalaya](https://github.com/soywod/himalaya.git). It can be
+   downloaded from its releases page. Often, this can simply be installed with
+   your favorite package manager, either the system package manager or e.g.
+   homebrew.
 2. Set up `himalaya` with your IMAP credentials by running `himalaya`. A wizard
    will walk the user through setting this up.
-2. Download [fzf](https://github.com/junegunn/fzf) from its releases page.
+2. Install [fzf](https://github.com/junegunn/fzf). It can be downloaded from its
+   releases page. Often, this can simply be installed with your favorite package
+   manager, either the system package manager or e.g. homebrew.
 4. Download the `git-receive-mail` script included herein and put it on on the
    PATH.
 
