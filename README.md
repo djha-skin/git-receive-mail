@@ -8,11 +8,7 @@ automatically applied to the current branch.
 
 ![Demo of `git receive-mail`](git-receive-mail.gif)
 
-Feature requests and bug reports are welcome at this project's [issue
-tracker](https://todo.sr.ht/~skin/git-receive-mail).
-
-Patches may be sent and discussed at the project's [mailing
-list](https://lists.sr.ht/~skin/git-receive-mail-devel).
+Feature requests and bug reports are welcome!
 
 ## Usage
 
